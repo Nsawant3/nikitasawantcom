@@ -10,6 +10,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
 <style>
+ 
+#proganim{
+  display:flex;
+}
+#movem{
+  animation:mymove 20s;
+}
+  
+@keyframes mymove {
+  50% {flex-grow: 8;}
+}
+  
 /*body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}*/
 body, h1,h2,h3,h4,h5,h6 {font-family: 'B612'}
 .w3-row-padding img {margin-bottom: 12px}
@@ -66,8 +78,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: 'B612'}
     <!--<h3 class="w3-padding-16 w3-text-light-grey ">My Skills</h3>-->
     <h3 class="w3-padding-16 w3-text-dark-blue ">My Skills</h3>
     <p class="w3-wide">Java</p>
-    <div class="w3-white">
-      <div class="w3-metro-dark-blue" style="height:28px;width:95%"></div>
+    <div class="w3-white" id="proganim">
+      <div class="w3-metro-dark-blue" style="height:28px;width:95% id="movem"></div>
     </div>
      <p class="w3-wide">C++</p>
     <div class="w3-white">
