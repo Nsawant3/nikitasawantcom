@@ -126,40 +126,49 @@ body, h1,h2,h3,h4,h5,h6 {font-family: 'B612'}
 <!-- Photo Grid -->
 <div class="row" style="margin-left:6%"> 
   <div class="column">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
   </div>
   <div class="column">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
   </div>  
   <div class="column">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
   </div>
   <div class="column">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
-    <img src="nofaceava.png" style="width:100%">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
+    <img src="nofaceava.png" style="width:100%" onclick="onClick(this)" alt="Created using Procreate">
   </div>
 </div>
+  
+   <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-blue" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-sand w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
 
 <!-- End Grid -->
     </div>
@@ -178,6 +187,25 @@ body, h1,h2,h3,h4,h5,h6 {font-family: 'B612'}
 </div>
 
 <script>
+
+ function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+} 
+  
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
 
