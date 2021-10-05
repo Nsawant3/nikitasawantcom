@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/my-react-app/static/js/main.9572ccba.chunk.js",
-    "main.js.map": "/my-react-app/static/js/main.9572ccba.chunk.js.map",
-    "runtime-main.js": "/my-react-app/static/js/runtime-main.26e5b3ed.js",
-    "runtime-main.js.map": "/my-react-app/static/js/runtime-main.26e5b3ed.js.map",
-    "static/js/2.8ac0d950.chunk.js": "/my-react-app/static/js/2.8ac0d950.chunk.js",
-    "static/js/2.8ac0d950.chunk.js.map": "/my-react-app/static/js/2.8ac0d950.chunk.js.map",
-    "static/js/3.273fe146.chunk.js": "/my-react-app/static/js/3.273fe146.chunk.js",
-    "static/js/3.273fe146.chunk.js.map": "/my-react-app/static/js/3.273fe146.chunk.js.map",
-    "index.html": "/my-react-app/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/my-react-app/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.8ac0d950.chunk.js.LICENSE.txt": "/my-react-app/static/js/2.8ac0d950.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/my-react-app/static/media/logo.6ce24c58.svg"
+    "main.css": "/nikitasawantcom/static/css/main.a617e044.chunk.css",
+    "main.js": "/nikitasawantcom/static/js/main.be23925c.chunk.js",
+    "main.js.map": "/nikitasawantcom/static/js/main.be23925c.chunk.js.map",
+    "runtime-main.js": "/nikitasawantcom/static/js/runtime-main.70d97554.js",
+    "runtime-main.js.map": "/nikitasawantcom/static/js/runtime-main.70d97554.js.map",
+    "static/js/2.77bc45ef.chunk.js": "/nikitasawantcom/static/js/2.77bc45ef.chunk.js",
+    "static/js/2.77bc45ef.chunk.js.map": "/nikitasawantcom/static/js/2.77bc45ef.chunk.js.map",
+    "static/js/3.c2313e01.chunk.js": "/nikitasawantcom/static/js/3.c2313e01.chunk.js",
+    "static/js/3.c2313e01.chunk.js.map": "/nikitasawantcom/static/js/3.c2313e01.chunk.js.map",
+    "index.html": "/nikitasawantcom/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/nikitasawantcom/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.77bc45ef.chunk.js.LICENSE.txt": "/nikitasawantcom/static/js/2.77bc45ef.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/nikitasawantcom/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.26e5b3ed.js",
-    "static/js/2.8ac0d950.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.9572ccba.chunk.js"
+    "static/js/runtime-main.70d97554.js",
+    "static/js/2.77bc45ef.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.be23925c.chunk.js"
   ]
 }
